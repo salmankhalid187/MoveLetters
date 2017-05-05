@@ -14,6 +14,8 @@
 		584C0ACA1BAD598100E46ED0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584C0AC91BAD598100E46ED0 /* Images.xcassets */; };
 		584C0ACD1BAD598100E46ED0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 584C0ACB1BAD598100E46ED0 /* LaunchScreen.xib */; };
 		584C0AD91BAD598200E46ED0 /* MoveLettersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 584C0AD81BAD598200E46ED0 /* MoveLettersTests.m */; };
+		584C0AE41BAD5B8E00E46ED0 /* MovingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 584C0AE31BAD5B8E00E46ED0 /* MovingLabel.m */; };
+		584C0AE61BAD636200E46ED0 /* Letters.plist in Resources */ = {isa = PBXBuildFile; fileRef = 584C0AE51BAD636200E46ED0 /* Letters.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		584C0AD21BAD598200E46ED0 /* MoveLettersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveLettersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		584C0AD71BAD598200E46ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		584C0AD81BAD598200E46ED0 /* MoveLettersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveLettersTests.m; sourceTree = "<group>"; };
+		584C0AE21BAD5B8E00E46ED0 /* MovingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingLabel.h; sourceTree = "<group>"; };
+		584C0AE31BAD5B8E00E46ED0 /* MovingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingLabel.m; sourceTree = "<group>"; };
+		584C0AE51BAD636200E46ED0 /* Letters.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Letters.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,8 @@
 				584C0AC11BAD598100E46ED0 /* AppDelegate.m */,
 				584C0AC31BAD598100E46ED0 /* ViewController.h */,
 				584C0AC41BAD598100E46ED0 /* ViewController.m */,
+				584C0AE21BAD5B8E00E46ED0 /* MovingLabel.h */,
+				584C0AE31BAD5B8E00E46ED0 /* MovingLabel.m */,
 				584C0AC61BAD598100E46ED0 /* Main.storyboard */,
 				584C0AC91BAD598100E46ED0 /* Images.xcassets */,
 				584C0ACB1BAD598100E46ED0 /* LaunchScreen.xib */,
@@ -96,6 +103,7 @@
 		584C0ABC1BAD598100E46ED0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				584C0AE51BAD636200E46ED0 /* Letters.plist */,
 				584C0ABD1BAD598100E46ED0 /* Info.plist */,
 				584C0ABE1BAD598100E46ED0 /* main.m */,
 			);
@@ -201,6 +209,7 @@
 			files = (
 				584C0AC81BAD598100E46ED0 /* Main.storyboard in Resources */,
 				584C0ACD1BAD598100E46ED0 /* LaunchScreen.xib in Resources */,
+				584C0AE61BAD636200E46ED0 /* Letters.plist in Resources */,
 				584C0ACA1BAD598100E46ED0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				584C0AE41BAD5B8E00E46ED0 /* MovingLabel.m in Sources */,
 				584C0AC51BAD598100E46ED0 /* ViewController.m in Sources */,
 				584C0AC21BAD598100E46ED0 /* AppDelegate.m in Sources */,
 				584C0ABF1BAD598100E46ED0 /* main.m in Sources */,
@@ -418,6 +428,7 @@
 				584C0ADE1BAD598200E46ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		584C0ADF1BAD598200E46ED0 /* Build configuration list for PBXNativeTarget "MoveLettersTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +437,7 @@
 				584C0AE11BAD598200E46ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
